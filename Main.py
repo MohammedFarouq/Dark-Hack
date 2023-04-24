@@ -18,7 +18,6 @@ from os import system as s
 
 from time import sleep as waktu
 try: 
-import mechanize
 from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
 
