@@ -1,6 +1,6 @@
 #import os
 
-import os,sys,time,json,random,re,string,platform,base64,uuid
+import os,sys,time,json,random,re,string,platform,base64,uuid,requests
 
 from bs4 import BeautifulSoup as sop
 
@@ -18,9 +18,6 @@ from os import system as s
 
 from time import sleep as waktu
 try: 
-from requests.exceptions import ConnectionError
-except ModuleNotFoundError:
-
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
 
     os.system('pip install bs4')
