@@ -19,11 +19,9 @@ from os import system as s
 from time import sleep as waktu
 try: 
 
-  import request
-    import mechanize
-
-    from requests.exceptions import ConnectionError
-
+import request
+import mechanize
+from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
 
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
